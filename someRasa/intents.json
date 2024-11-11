@@ -1,0 +1,168 @@
+{
+  "intents": [
+      {
+          "tag": "Child Protection",
+          "patterns": [
+              "How can I report child abuse?",
+              "What are the child protection laws?",
+              "Tell me about child protection services",
+              "What support is available for abused children?"
+          ],
+          "responses": [
+              "Visit [child protection link] for detailed information or call the Child Protection hotline at 12345.",
+              "For child protection services, contact us at 12345 or visit [child protection link]."
+          ],
+          "positive_responses": [
+              "I'm glad you're reaching out. Visit [child protection link] or call the hotline at 12345.",
+              "You're doing the right thing. Contact us at 12345 or visit [child protection link] for help."
+          ],
+          "negative_responses": [
+              "I'm here to help. Visit [child protection link] or call the Child Protection hotline at 12345.",
+              "Please don't hesitate to reach out. Call 12345 or visit [child protection link] for support."
+          ]
+      },
+      {
+          "tag": "Gender Equality",
+          "patterns": [
+              "What is the ministry doing for gender equality?",
+              "Can you tell me about gender equality policies?",
+              "What is gender equality?",
+              "How does the ministry promote gender equality?"
+          ],
+          "responses": [
+              "Gender equality policies are available at [gender equality link] or contact our team for more information.",
+              "Learn about our gender equality initiatives at [gender equality link]."
+          ],
+          "positive_responses": [
+              "We're thrilled to share our gender equality efforts! Check out [gender equality link].",
+              "It's great to see interest in gender equality! Visit [gender equality link] for details."
+          ],
+          "negative_responses": [
+              "Gender equality is a priority. Find more information at [gender equality link] or reach out.",
+              "We're working towards equality. Visit [gender equality link] for details."
+          ]
+      },
+      {
+          "tag": "Anti-GBV",
+          "patterns": [
+              "What is GBV?",
+              "What is gender-based violence?",
+              "How does the ministry fight against GBV?",
+              "Can you tell me about gender-based violence measures?"
+          ],
+          "responses": [
+              "To learn about our measures against GBV, visit [GBV link] or call our GBV hotline at 54321.",
+              "Gender-based violence information and resources can be found at [GBV link]."
+          ],
+          "positive_responses": [
+              "Your support is appreciated. For details on anti-GBV efforts, visit [GBV link] or call 54321.",
+              "We're committed to combating GBV. Learn more at [GBV link] or contact us at 54321."
+          ],
+          "negative_responses": [
+              "Our team is here to help. Visit [GBV link] or call 54321 for support against GBV.",
+              "GBV resources are available at [GBV link] or call 54321 if you need assistance."
+          ]
+      },
+      {
+          "tag": "Family Promotion",
+          "patterns": [
+              "What services are there for family promotion?",
+              "How does the ministry support families?",
+              "Tell me about family promotion initiatives."
+          ],
+          "responses": [
+              "Family promotion resources are available at [family promotion link]. Call us at 67890 for further assistance.",
+              "Learn about our family support services at [family promotion link]."
+          ],
+          "positive_responses": [
+              "We're here for families! Explore resources at [family promotion link] or call us at 67890.",
+              "Your interest in family support is appreciated! Visit [family promotion link] for more."
+          ],
+          "negative_responses": [
+              "Supporting families is a priority. Find more at [family promotion link] or call us at 67890.",
+              "We're here to help. Visit [family promotion link] or call 67890 for family services."
+          ]
+      },
+      {
+          "tag": "Nutrition",
+          "patterns": [
+              "What are the nutrition guidelines?",
+              "How can I improve my family's nutrition?",
+              "Tell me about nutrition programs."
+          ],
+          "responses": [
+              "Nutrition guidelines are provided on our website at [nutrition link].",
+              "For family nutrition tips, visit [nutrition link] or contact our helpline at 11111."
+          ],
+          "positive_responses": [
+              "It's great to see interest in nutrition! Visit [nutrition link] for guidelines.",
+              "Healthy choices make a difference! Check [nutrition link] for nutrition information."
+          ],
+          "negative_responses": [
+              "Nutrition support is available at [nutrition link]. Let us know if you need assistance.",
+              "For nutrition advice, visit [nutrition link] or call us at 11111."
+          ]
+      },
+      {
+          "tag": "Early Childhood Development",
+          "patterns": [
+              "What is early childhood development?",
+              "Can you tell me about early childhood programs?",
+              "How does the ministry support early childhood education?"
+          ],
+          "responses": [
+              "Our early childhood development programs are detailed at [early childhood link].",
+              "For more information on early childhood education, visit [early childhood link] or call 22222."
+          ],
+          "positive_responses": [
+              "Early childhood development is essential! Check out [early childhood link] for more.",
+              "We're excited to share our programs! Visit [early childhood link] for details."
+          ],
+          "negative_responses": [
+              "Early childhood resources are available. Visit [early childhood link] or call 22222 for support.",
+              "Visit [early childhood link] for early childhood programs. We're here to help."
+          ]
+      },
+      {
+          "tag": "General Inquiry",
+          "patterns": [
+              "How can I contact the ministry?",
+              "What is the ministry's contact information?",
+              "Can I get in touch with someone at the ministry?",
+              "How do I report an issue?"
+          ],
+          "responses": [
+              "You can contact us at 33333 or visit our website for more details at [ministry link].",
+              "For inquiries, please call 33333 or email us at contact@ministry.gov."
+          ],
+          "positive_responses": [
+              "We're here to assist! Contact us at 33333 or visit [ministry link].",
+              "Feel free to reach out at 33333 or visit our website at [ministry link]!"
+          ],
+          "negative_responses": [
+              "If you need assistance, we're available at 33333 or [ministry link].",
+              "Contact us at 33333 or [ministry link] if you have questions."
+          ]
+      },
+      {
+          "tag": "Feedback",
+          "patterns": [
+              "How can I give feedback?",
+              "I want to suggest improvements",
+              "Where can I leave feedback?"
+          ],
+          "responses": [
+              "We welcome your feedback! Please submit it on our website at [feedback link] or call us at 44444.",
+              "To leave feedback, visit [feedback link]."
+          ],
+          "positive_responses": [
+              "We're glad to hear from you! Submit feedback at [feedback link] or call 44444.",
+              "We appreciate your input! Visit [feedback link] for feedback options."
+          ],
+          "negative_responses": [
+              "Your feedback matters. Visit [feedback link] or call 44444.",
+              "Thank you for reaching out. Submit feedback at [feedback link]."
+          ]
+      }
+  ]
+}

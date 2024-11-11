@@ -1,0 +1,33 @@
+{
+    "intents": [
+    {
+      "tag": "Username",
+      "patterns": [
+        "Hi, my name is {name}",
+        "Hello, I'm {name}",
+        "Hey, I am {name}",
+        "hi, you can call me {name}"
+      ],
+      "responses": [
+        "Nice to meet you, {name}!",
+        "Hello, {name}! How can I assist you today?"
+      ],
+      "context_set": "greeting",
+      "save_entities": ["name"]
+    },
+    {
+      "tag": "Location Inquiry",
+      "patterns": [
+        "I am located in {location}",
+        "I'm from {location}",
+        "My location is {location}"
+      ],
+      "responses": [
+        "Thanks for sharing your location, {location}. How can I help you?",
+        "Got it, {location} is a great place!"
+      ],
+      "context_set": "location_info",
+      "save_entities": ["location"]
+    }
+    ]
+}
